@@ -27,7 +27,7 @@ public class HomePageControllerForm {
         @FXML
         void btnAddOnClickAction(ActionEvent event) {
 
-            ListOfNames.getItems().add(txtEmail.getText());
+           // ListOfNames.getItems().add(txtEmail.getText());
 
             try {
                 Connection connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/clothify","root","1234");

@@ -47,4 +47,8 @@ public class ProductPageControllerForm {
 
     public void btnDeleteOnAction(javafx.event.ActionEvent actionEvent) {
     }
+
+    public void btnSearchOnAction(javafx.event.ActionEvent actionEvent) {
+        
+    }
 }

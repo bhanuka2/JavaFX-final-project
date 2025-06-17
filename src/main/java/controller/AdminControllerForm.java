@@ -14,7 +14,7 @@ public class AdminControllerForm {
     void btnEmployeesOnClickAction(ActionEvent event) throws IOException {
 
         Stage stage=new Stage();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/EmployeePage.fxml")
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/LoginPage.fxml")
         )));
 
         stage.show();
@@ -23,7 +23,7 @@ public class AdminControllerForm {
     @FXML
     void btnProductsOnClickAction(ActionEvent event) throws IOException {
         Stage stage=new Stage();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/ProductPage.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/LoginPage.fxml"))));
         stage.show();
     }
 
